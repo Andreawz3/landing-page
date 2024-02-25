@@ -1,9 +1,6 @@
-.musicNote {
-  /* position: absolute;
-  right: 900px; */
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-/* .splineMusicNote {
-  width: 0;
-  height: 0;
-} */
