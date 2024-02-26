@@ -10,7 +10,7 @@ export default function Features() {
         src='/images/featuresBackground.png'
         width={900}
         height={600}
-        alt="phone"
+        alt="background"
       />
       <div className={styles.infoContainer}>
         <div>
