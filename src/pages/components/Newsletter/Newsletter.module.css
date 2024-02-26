@@ -1,7 +1,7 @@
 .container {
   position: relative;
   width: 100%;
-  height: 425px;
+  height: 40vh;
   display: flex;
   justify-content: center;
   margin: 70px 0 0;
@@ -59,7 +59,7 @@
 /* Tablet Size (iPad Air) */
 @media only screen and (max-width: 900px) {
   .container {
-    height: 238px;
+    height: 23vh;
   }
   .infoContainer {
     width: 660px;
