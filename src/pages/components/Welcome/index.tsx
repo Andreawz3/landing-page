@@ -37,13 +37,6 @@ export default function Welcome() {
         </div>
         <div>
           <Spline scene="https://prod.spline.design/J32o0PZJc4Nnfxj5/scene.splinecode" />
-          {/* <Image
-            style={{position: "absolute", zIndex: 0}}
-            src='/images/topBackground.png'
-            width={550}
-            height={550}
-            alt="apple store"
-          /> */}
         </div>
       </div>
     </div>

@@ -19,10 +19,20 @@
   color: var(--secondary-color);
 }
 
+.description {
+  display: flex;
+  gap: 50px
+}
+
 .descriptionContainer {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 15px;
 }
 
 .links {
@@ -53,4 +63,26 @@
   width: 100%;
   font-size: var(--small-font);
   text-align: end;
+}
+
+/* Tablet Size (iPad Air) */
+@media only screen and (max-width: 900px) {
+  .infoContainer {
+    width: 660px;
+  }
+  .infoDescription {
+      gap: 30px;
+  }
+  .description {
+    gap: 10px
+  }
+  .iconsContainer {
+    gap: 5px;
+  }
+  .horizontalLine {
+    max-width: 660px;
+  }
+  .copyrightText {
+    max-width: 660px;
+  }
 }

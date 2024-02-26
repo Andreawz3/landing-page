@@ -21,6 +21,11 @@
   justify-content: space-evenly;
 }
 
+.subtitle {
+  font-size: var(--medium-font);
+  color: var(--main-color);
+}
+
 .description {
   width: 250px;
 }
@@ -29,10 +34,23 @@
   padding: 30px;
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 5px;
-  /* box-shadow: 5px 10px 18px #ffffff00; */
+  text-align: center;
 }
 
 .card:hover {
-  /* background-color: #888888; */
   box-shadow: 5px 10px 18px #888888;
+}
+
+/* Tablet Size (iPad Air) */
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 660px;
+  }
+  .card {
+    padding: 20px;
+    font-size: var(--x-small-font);
+  }
+  .description {
+    width: 200px;
+  }
 }

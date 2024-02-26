@@ -25,3 +25,14 @@
   width: 775px;
   font-size: var(--small-font);
 }
+
+/* Tablet Size (iPad Air) */
+@media only screen and (max-width: 900px) {
+  .infoContainer {
+    width: 660px;
+  }
+  .description {
+    width: 600px;
+    text-align: center;
+  }
+}

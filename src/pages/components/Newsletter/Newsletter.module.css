@@ -55,3 +55,21 @@
   border-radius: 10px;
   color: var(--secondary-color);
 }
+
+/* Tablet Size (iPad Air) */
+@media only screen and (max-width: 900px) {
+  .container {
+    height: 238px;
+  }
+  .infoContainer {
+    width: 660px;
+    margin-top: 0;
+  }
+
+  .subTitle {
+    margin-top: 0;
+  }
+  .subscribeContainer {
+    margin-top: 15px;
+  }
+}

@@ -13,7 +13,7 @@ export default function Footer() {
             height={85}
             alt="logo"
           />
-          <div style={{display: "flex", gap: "50px"}}>
+          <div className={styles.description}>
             <div className={styles.descriptionContainer}>
               <p style={{fontSize: "var(--regular-font)", fontWeight: "var(--medium-bold)"}}>CONTACT</p>
               <p style={{fontSize: "var(--small-font)"}}>amplify@email.com</p>
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div className={styles.descriptionContainer}>
               <p style={{fontSize: "var(--regular-font)", fontWeight: "var(--medium-bold)"}}>FOLLOW</p>
-              <div style={{display: "flex", gap: "15px"}}>
+              <div className={styles.iconsContainer}>
                 <Link href="#">
                   <Image
                     className={styles.socialIcon} 
