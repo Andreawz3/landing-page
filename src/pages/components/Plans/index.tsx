@@ -36,27 +36,24 @@ export default function Plans() {
               <p className={styles.planPrice}>$8.99 /<span style={{fontSize: "var(--regular-font)", fontWeight: "var(--regular-bold)"}}>month</span></p>
               <p style={{textAlign: "center"}}>2 accounts</p>
               <div className={styles.planInfo}>
-                <p>• Listen to music ad-free</p>
-                <p>• Early access to new releases from featured artists</p>
-                <p>• Play off-line</p>
-                <p>• Create unlimited playlist</p>
-                <p>• Unlimited shuffle</p>
+                <p>• All the benefits as Indivual Plan</p>
+                <p>• 2 Premium accounts under the same roof to listen to music ad-free</p>
+                <p>• Share playlists and sync music and arts</p>
+                <p>• Unlimited shuffle for both accounts</p>
               </div>
             </div>
           </div>
           <div className={styles.plansCard}>
-            {/* <Spline scene="https://prod.spline.design/sKJiO8UJ0jGtwdQH/scene.splinecode" /> */}
             <Spline style={{height: 165}} scene="https://prod.spline.design/sKJiO8UJ0jGtwdQH/scene.splinecode" />
             <Link className={styles.links} href="#">Family</Link>
             <div className={styles.cardInfo}>
               <p className={styles.planPrice}>$10.99 /<span style={{fontSize: "var(--regular-font)", fontWeight: "var(--regular-bold)"}}>month</span></p>
               <p style={{textAlign: "center"}}>4 accounts</p>
               <div className={styles.planInfo}>
-                <p>• Listen to music ad-free</p>
-                <p>• Early access to new releases from featured artists</p>
-                <p>• Play off-line</p>
-                <p>• Create unlimited playlist</p>
-                <p>• Unlimited shuffle</p>
+                <p>• 4 Premium accounts under the same roof to listen to music ad-free</p>
+                <p>• Invitations to exclusive local events and exhibitions</p>
+                <p>• Share playlist and sync music and art in all 4 devices at the same time</p>
+                <p>• Unlimited shuffle for all accounts</p>
               </div>
             </div>
           </div>

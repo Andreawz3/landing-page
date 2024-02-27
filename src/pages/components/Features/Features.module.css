@@ -17,7 +17,7 @@
 .infoContainer {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 830px;
   width: 100%;
   justify-content: center;
   align-items: center;
