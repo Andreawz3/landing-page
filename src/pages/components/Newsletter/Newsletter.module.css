@@ -67,6 +67,7 @@
   .infoContainer {
     width: 660px;
     margin-top: 0;
+    gap: 35px;
   }
 
   .subTitle {
