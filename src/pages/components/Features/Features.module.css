@@ -16,6 +16,7 @@
 
 .infoContainer {
   display: flex;
+  flex-direction: column;
   max-width: 1200px;
   width: 100%;
   justify-content: center;
@@ -43,8 +44,41 @@
 
 /* Tablet Size (iPad Air) */
 @media only screen and (max-width: 900px) {
-  .infoContainer {
+  .container {
     flex-direction: column;
-    padding: 70px 0;
+    align-items: center;
+  }
+  .infoContainer {
+    max-width: 660px;
+    flex-direction: column;
+    padding: 70px 0 0;
+  }
+  .description {
+    width: 485px;
+    margin: 10px 0 30px;
+  }
+  .phoneImg {
+    margin-top: 30px;
+  }
+}
+
+/* Mobile Size (iPhone XR) */
+@media only screen and (max-width: 600px) {
+  .infoContainer {
+    max-width: 375px;
+  }
+  .title {
+    width: 300px;
+    font-size: var(--medium-font);
+  }
+  .description {
+    width: 300px;
+    font-size: var(--x-small-font);
+  }
+  .featuresDetails > p {
+    font-size: var(--x-small-font);
+  }
+  .phoneImg {
+    width: 380px;
   }
 }

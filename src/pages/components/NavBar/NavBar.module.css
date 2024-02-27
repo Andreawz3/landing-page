@@ -44,4 +44,15 @@
   .container {
     max-width: 660px;
   }
+  .linksContainer {
+    gap: 20px;
+    font-size: var(--small-font);
+  }
+}
+
+/* Mobile Size (iPhone XR) */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 375px;
+  }
 }

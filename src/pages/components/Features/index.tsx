@@ -13,13 +13,13 @@ export default function Features() {
         alt="background"
       />
       <div className={styles.infoContainer}>
+        <p className={styles.title}>Explore Canadian Public Art and Music with <span style={{color: "var(--main-color)"}}>Amplify</span></p>
+        <p className={styles.description}>
+          Your gateway to experiencing the vibrant world of Canadian 
+          multimedia art! Join us on a journey of discovery and creativity. 
+          Start exploring now!
+        </p>
         <div>
-          <p className={styles.title}>Explore Canadian Public Art and Music with <span style={{color: "var(--main-color)"}}>Amplify</span></p>
-          <p className={styles.description}>
-            Your gateway to experiencing the vibrant world of Canadian 
-            multimedia art! Join us on a journey of discovery and creativity. 
-            Start exploring now!
-          </p>
           <div className={styles.featuresDetails}>
             <Spline style={{width: "70px"}} scene="https://prod.spline.design/Gn0Xv4kcZhjR2dbz/scene.splinecode" />
             <p>Enjoy a unique combination of visual art and music simultaneously</p>
@@ -33,13 +33,14 @@ export default function Features() {
             <p>Creating a truly unique and immersive cultural experience</p>
           </div>
         </div>
-        <Image 
-          src='/images/phone-display.png'
-          width={600}
-          height={600}
-          alt="phone"
-        />
       </div>
+      <Image 
+        className={styles.phoneImg}
+        src='/images/phone-display.png'
+        width={600}
+        height={600}
+        alt="phone"
+      />
     </div>
   )
 }

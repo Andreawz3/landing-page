@@ -41,6 +41,12 @@
   font-size: var(--small-font);
 }
 
+.downloadLinks {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 /* Tablet Size (iPad Air) */
 @media only screen and (max-width: 900px) {
   .infoContainer {
@@ -49,6 +55,32 @@
     align-items: center;
   }
   .musicNotes {
+    display: none;
+  }
+}
+
+/* Mobile Size (iPhone XR) */
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 50px 0 90px;
+  }
+  .infoContainer {
+    max-width: 420px;
+  }
+  .subTitle {
+    font-size: var(--regular-font);
+  }
+  .title {
+    width: 360px;
+    font-size: var(--large-font);
+  }
+  .description {
+    width: 350px;
+  }
+  .downloadLinks {
+    flex-direction: column;
+  }
+  .animationDesign {
     display: none;
   }
 }

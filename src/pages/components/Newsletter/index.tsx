@@ -12,8 +12,10 @@ export default function Newsletter() {
         alt="background-img"
       />
       <div className={styles.infoContainer}>
-        <p className={styles.title}>Subscribe to our Newsletter</p>
-        <p className={styles.subTitle}>Receive updates instanly </p>
+        <div>
+          <p className={styles.title}>Subscribe to our Newsletter</p>
+          <p className={styles.subTitle}>Receive updates instanly </p>
+        </div>
         <div className={styles.subscribeContainer}>
           <Image 
             src='/images/email-icon.png'

@@ -18,17 +18,20 @@
   max-width: 1200px;
   margin-top: 34px;
   display: flex;
+  gap: 90px;
   flex-direction: column;
   align-items: center;
   font-family: var(--main-font);
 }
 
 .title {
+  text-align: center;
   font-size: var(--x-large-font);
   font-weight: var(--medium-bold);
 }
 
 .subTitle {
+  text-align: center;
   font-size: var(--medium-font);
   font-weight: var(--regular-bold);
   margin-top: 10px;
@@ -38,8 +41,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-top: 130px;
   border-radius: 10px;
+  border: 2px solid var(--tertiary-color);
   background-color: var(--secondary-color);
   padding: 0px 50px;
 }
@@ -59,7 +62,7 @@
 /* Tablet Size (iPad Air) */
 @media only screen and (max-width: 900px) {
   .container {
-    height: 23vh;
+    height: 20vh;
   }
   .infoContainer {
     width: 660px;
@@ -71,5 +74,36 @@
   }
   .subscribeContainer {
     margin-top: 15px;
+  }
+}
+
+/* Mobile Size (iPhone XR) */
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 50px 0 0;
+    height: 14vh;
+  }
+  .infoContainer {
+    max-width: 420px;
+    margin-top: -30px;
+    gap: 10px;
+  }
+  .title {
+    font-size: var(--large-font);
+  }
+  .subTitle {
+    font-size: var(--small-font);
+  }
+  .subscribeContainer {
+    padding: 0px 15px;
+  }
+  .emailInputBox {
+    font-size: var(--x-small-font);
+    width: 120px;
+    padding: 15px 10px;
+  }
+  .subscribeBtn {
+    font-size: 10px;
+    padding: 5px;
   }
 }

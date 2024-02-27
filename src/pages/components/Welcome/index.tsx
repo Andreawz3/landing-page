@@ -15,7 +15,7 @@ export default function Welcome() {
             Explore the intersection of visual art and music like never before, creating 
             a truly unique and immersive cultural experience
           </p>
-          <div style={{display: "flex", alignItems: 'center', gap: "12px"}}>
+          <div className={styles.downloadLinks}>
             <p style={{fontSize: "14px", fontWeight: 600}}>Download the App Now</p>
             <Link href="https://play.google.com/store/apps?hl=en_CA&gl=US" target="_blank">
               <Image 
@@ -36,7 +36,7 @@ export default function Welcome() {
           </div>
         </div>
         <div>
-          <Spline scene="https://prod.spline.design/J32o0PZJc4Nnfxj5/scene.splinecode" />
+          <Spline className={styles.animationDesign} scene="https://prod.spline.design/J32o0PZJc4Nnfxj5/scene.splinecode" />
         </div>
       </div>
     </div>

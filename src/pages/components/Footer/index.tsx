@@ -17,7 +17,7 @@ export default function Footer() {
             <div className={styles.descriptionContainer}>
               <p style={{fontSize: "var(--regular-font)", fontWeight: "var(--medium-bold)"}}>CONTACT</p>
               <p style={{fontSize: "var(--small-font)"}}>amplify@email.com</p>
-              <p style={{width: "200px", fontSize: "var(--small-font)"}}>123 Abc Street Vacouver, BC A1B 2C3 Canada</p>
+              <p className={styles.address}>123 Abc Street Vacouver, BC A1B 2C3 Canada</p>
               <p style={{fontSize: "var(--small-font)"}}>+1 (123) 456-7890</p>
             </div>
             <div className={styles.descriptionContainer}>
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className={styles.descriptionContainer}>
               <p style={{fontSize: "var(--regular-font)", fontWeight: "var(--medium-bold)"}}>FOLLOW</p>
               <div className={styles.iconsContainer}>
-                <Link href="#">
+                <Link href="https://github.com/pjiang604/MDIA3109_FinalProject.git" target="_blank">
                   <Image
                     className={styles.socialIcon} 
                     src="/images/github.png"

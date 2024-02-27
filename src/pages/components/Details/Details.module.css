@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  /* height: 100vh; */
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -55,5 +54,20 @@
   }
   .description {
     width: 200px;
+  }
+}
+
+
+/* Mobile Size (iPhone XR) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 325px;
+  }
+  .title {
+    font-size: var(--medium-font);
+    padding: 60px 0;
+  }
+  .cardsContainer {
+    flex-direction: column;
   }
 }

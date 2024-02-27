@@ -6,6 +6,8 @@
 }
 
 .infoContainer {
+  display: flex;
+  flex-direction: column;
   padding: 50px 0 20px;
   font-family: var(--main-font);
   color: var(--secondary-color);
@@ -33,6 +35,11 @@
 .iconsContainer {
   display: flex;
   gap: 15px;
+}
+
+.address {
+  width: 200px; 
+  font-size: var(--small-font);
 }
 
 .links {
@@ -84,5 +91,36 @@
   }
   .copyrightText {
     max-width: 660px;
+  }
+}
+
+/* Mobile Size (iPhone XR) */
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .infoContainer {
+    width: 420px;
+    flex-direction: column;
+  }
+  .infoDescription {
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 46px;
+  }
+  .description {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .address {
+    width: 170px;
+  }
+  .horizontalLine {
+    display: flex;
+    align-self: center;
+    max-width: 360px;
+  }
+  .copyrightText {
+    max-width: 390px;
   }
 }
